@@ -15,7 +15,7 @@ function SignIn() {
         <h1 className='text-lg font-bold pb-4'>👥 Ngobrol Global</h1>
         <p className='pb-8'>
             Ini website cuman buat iseng doang <br/>
-            Kalo mau ngomel jaga etika ya lur. 👍 <br/>
+            Kalo mau ngobrol jaga etika ya lur. 👍 <br/>
             ...
         </p>
         <button
