@@ -27,7 +27,7 @@ function SignIn() {
         <h1 className='pt-40'>v.-1.0.beta by <span className='font-bold'>Wish 🌐</span></h1>
         </div>  
     </div>
-
+    
   )
 }
 
