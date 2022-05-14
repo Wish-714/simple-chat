@@ -30,10 +30,10 @@ function Chat () {
     return (
         
         <div className=' h-screen bg-white'> 
-            <div className='fixed flex items-center w-screen bg-gray-200'>
-                <img className='rounded-xl w-12 mx-4 my-4' alt='' src={auth.currentUser?.photoURL}/>
-                <h1 className='font-bold text-xl'>{auth.currentUser?.displayName}</h1>
-                <div className='mx-4 my-4 absolute top-0 right-2'>
+            <div className='fixed flex items-center w-screen bg-gray-200 shadow-md'>
+                <img className='rounded-xl w-10 mx-4 my-4' alt='' src={auth.currentUser?.photoURL}/>
+                <h1 className='font-bold text-l'>{auth.currentUser?.displayName}</h1>
+                <div className='mx-3 my-4 absolute top-0 right-0'>
                     <SignOut/>
                 </div>
             </div>
