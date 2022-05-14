@@ -14,7 +14,7 @@ function Message(props) {
                 <div className='flex items-center mt-2'>
                     <img
                     className='w-10 rounded-full my-2'
-                    alt="" src={photoURL}/>
+                    alt='' src={photoURL}/>
                     {displayName ? <p className='mx-2'>{displayName}</p> : null}
                 </div>
                 <p className='font-semibold bg-gray-100 px-8 py-4 mb-1 rounded-2xl'>~ 

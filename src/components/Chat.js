@@ -31,7 +31,7 @@ function Chat () {
         
         <div className=' h-screen bg-white'> 
             <div className='fixed flex items-center w-screen bg-gray-200'>
-                <img className='rounded-full w-12 mx-4 my-4' alt='' src={auth.currentUser?.photoURL}/>
+                <img className='rounded-xl w-12 mx-4 my-4' alt='' src={auth.currentUser?.photoURL}/>
                 <h1 className='font-bold text-xl'>{auth.currentUser?.displayName}</h1>
                 <div className='mx-4 my-4 absolute top-0 right-2'>
                     <SignOut/>
