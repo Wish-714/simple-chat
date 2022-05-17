@@ -4,6 +4,7 @@ import SignOut from './SignOut'
 import Message from './Message';
 import { useCollectionData } from 'react-firebase-hooks/firestore'
 import { auth } from '../Firebase';
+import '../App.css';
 
 function Chat () {
 
@@ -39,10 +40,9 @@ function Chat () {
             </div>
             
             <div className='shadow-md shadow-gray-400/50 mt-20 fixed h-6 w-screen bg-gradient-to-br from-teal-400 to-blue-600'>
-                <marquee behavior="scroll" direction="left" scrollamount="3">
+                <div className='example1'>
                     <p className='font-bold flex items-center text-white text-sm'> @Forum ./Programmer Enthusiast ~ #Ngoding Dulu '-Jagonya Belakangan'.</p>
-                </marquee>
-                
+                </div>
             </div>
             
             <div className='bg-white mt-24 ml-4 mb-36 mr-36'>
