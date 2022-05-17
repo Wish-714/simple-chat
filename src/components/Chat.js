@@ -29,16 +29,23 @@ function Chat () {
 
     return (
         
-        <div className=' h-screen bg-white'> 
-            <div className='fixed flex items-center w-screen bg-gray-200 shadow-md'>
+        <div className=' h-screen bg-white overflow-x-hidden'> 
+            <div className='h-20 fixed flex flex-row items-center w-screen bg-gray-200 '>
                 <img className='rounded-xl w-10 mx-4 my-4' alt='' src={auth.currentUser?.photoURL}/>
                 <h1 className='font-bold text-l'>{auth.currentUser?.displayName}</h1>
-                <div className='mx-3 my-4 absolute top-0 right-0'>
+                <div className='mx-3 mt-2 fixed right-0'>
                     <SignOut/>
                 </div>
             </div>
-
-            <div className='bg-white pt-20 pl-4 pb-36 pr-36'>
+            
+            <div className='shadow-md shadow-gray-400/50 mt-20 fixed h-6 w-screen bg-gradient-to-br from-teal-400 to-blue-600'>
+                <marquee behavior="scroll" direction="left" scrollamount="3">
+                    <p className='font-bold flex items-center text-white text-sm'> @Forum ./Programmer Enthusiast ~ #Ngoding Dulu '-Jagonya Belakangan'.</p>
+                </marquee>
+                
+            </div>
+            
+            <div className='bg-white mt-24 ml-4 mb-36 mr-36'>
                 {messages && messages.map(msg => <Message key={msg.id} message={msg}/>)}
             </div>
             

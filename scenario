@@ -1,0 +1,35 @@
+setup folder
+code .
+setup react npm create-react-app ./
+setup firebase npm i firebase react-firebase-hooks
+setup tailwind pake CDN script di dalam Html
+setup netlify
+
+react v18 firebase v9 tailwind latest
+
+firebas :
+- setup project
+- authentication google avtive
+- add custom domain
+- edit rules { if true }
+- copy Api Config to connect
+- setup messages documents in firestore { uid, photoURL, userName, createdAt, text } auto id 
+import modules with new v9
+setup google auth provider with new v9
+
+react v18 :
+- render with new DOM
+- components
+- useState useEffect
+
+git :
+git init
+git remote set-url origin { https }
+git remote -v
+git add .
+git fetch origin master
+git pull origin master
+git commit -m 'commit'
+git push origin master
+
+build in netlify..
