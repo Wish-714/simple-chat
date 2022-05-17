@@ -1,10 +1,12 @@
 .example1 {
-    height: 50px; 
-    overflow: hidden;
+      white-space: nowrap;
+      overflow: hidden;
 
   }
   .example1 p {
 
+      line-height: 23px;
+      
   
       /* Starting position */
          -moz-transform:translateX(100%);
